@@ -17,3 +17,5 @@ There are links for selecting internal vs external clock and for enabling on-boa
 Note: This is still in development, there might be problems.
 
 ![PCB schematic](nbreak_pcb_sch.png)
+
+![PCB screenshot](nbreak_pcb_scr.png)
