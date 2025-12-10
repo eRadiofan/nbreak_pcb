@@ -4288,7 +4288,7 @@
 		(uuid "398e8bdc-5ad1-4e1d-b8da-507153c44900")
 	)
 	(label "Data+"
-		(at 223.52 113.03 0)
+		(at 223.52 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4378,7 +4378,7 @@
 		(uuid "c9ef38b4-5eed-4aac-baa9-056ffb282b59")
 	)
 	(label "Data-"
-		(at 223.52 110.49 0)
+		(at 223.52 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
