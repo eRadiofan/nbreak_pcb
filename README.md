@@ -12,9 +12,11 @@ The board hosts 2 MAX485 chips running at 5V with level shifters for interfacing
 
 Connection is via 5-pin DIN and/or 5-pin header.
 
-There are links for selecting internal vs external clock and for enabling on-board terminators.
+Internal/external clock selection is via the UI. There is a link for enabling on-board terminators and a jumper option for enabling selection via the UI in the future.
 
 Note: This is still in development, there might be problems.
+
+The PCB is only 31mm wide and 44mm long.
 
 ![PCB schematic](nbreak_pcb_sch.png)
 
