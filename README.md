@@ -14,10 +14,14 @@ Connection is via 5-pin DIN and/or 5-pin header.
 
 Internal/external clock selection is via the UI. There is a link for enabling on-board terminators and a jumper option for enabling selection via the UI in the future.
 
+There is a blue LED for indication of a clock signal and a bi-colour LED for indication of transmission and reception. They are designed as 3mm through-hole types intended for poking through holes in a case (TBD).
+
 Note: This is still in development, there might be problems.
 
-The PCB is only 31mm wide and 44mm long.
 
 ![PCB schematic](nbreak_pcb_sch.png)
+
+
+The PCB is only 31mm wide and 44mm long.
 
 ![PCB screenshot](nbreak_pcb_scr.png)
