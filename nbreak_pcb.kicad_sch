@@ -4051,13 +4051,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Red\nVf=1.75V"
+	(text "Red (sending to AUN)\nVf=1.8V"
 		(exclude_from_sim no)
-		(at 216.408 56.388 0)
+		(at 213.36 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "0e3bcdc9-ada1-4c30-a6c2-228b346cb1a8")
 	)
@@ -4132,9 +4133,9 @@
 		)
 		(uuid "a0720a47-e038-4896-80f3-06f44442062b")
 	)
-	(text "Green\nVf=2V"
+	(text "Green\nVf=1.9V"
 		(exclude_from_sim no)
-		(at 215.9 41.148 0)
+		(at 217.17 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4293,12 +4294,12 @@
 		(uuid "6b9b774e-448a-4fcd-988c-f22b4c74f5d1")
 	)
 	(no_connect
-		(at 40.64 72.39)
-		(uuid "c62ca6be-f8cc-4f90-8f18-5e47edaebd62")
-	)
-	(no_connect
 		(at 40.64 52.07)
 		(uuid "d7b45e2e-8fb1-44a5-95b3-bbd0daa3a282")
+	)
+	(no_connect
+		(at 40.64 69.85)
+		(uuid "ecf86803-83b9-4a5c-84c6-9e5de5643d90")
 	)
 	(no_connect
 		(at 40.64 80.01)
@@ -4763,6 +4764,16 @@
 			(type default)
 		)
 		(uuid "5473e6ec-43b7-431b-97ee-c66ef4456ebe")
+	)
+	(wire
+		(pts
+			(xy 40.64 72.39) (xy 43.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5551ca8f-b71d-43c9-8ec1-1304fc5ee8b2")
 	)
 	(wire
 		(pts
@@ -5396,16 +5407,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 69.85) (xy 43.18 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db623eae-4268-4aff-bfc1-30ad9dda9314")
-	)
-	(wire
-		(pts
 			(xy 120.65 127) (xy 121.92 127)
 		)
 		(stroke
@@ -5754,6 +5755,16 @@
 		)
 		(uuid "998a9118-4fa9-4f3d-b12d-86c510db1a1e")
 	)
+	(label "IO10_Term_Sel"
+		(at 76.2 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b59d280-9181-4045-bcbd-2c9ec1ecdb50")
+	)
 	(label "IO6_Clock_In"
 		(at 43.18 59.69 0)
 		(effects
@@ -5764,8 +5775,8 @@
 		)
 		(uuid "a3476707-62f3-488d-b639-ee73d439b4ff")
 	)
-	(label "IO8_Term_Sel"
-		(at 43.18 69.85 0)
+	(label "IO10_Term_Sel"
+		(at 43.18 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5833,16 +5844,6 @@
 			(justify right bottom)
 		)
 		(uuid "f0c1e42d-64e4-4b0a-8340-c3259128c1d7")
-	)
-	(label "IO8_Term_Sel"
-		(at 76.2 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1eee44a-d0c6-423b-be1b-d3d40992d5b3")
 	)
 	(label "IO1_Data_Out"
 		(at 43.18 67.31 0)
@@ -6573,7 +6574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "750R"
+		(property "Value" "150R"
 			(at 200.66 50.8 90)
 			(effects
 				(font
@@ -7136,7 +7137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHC2G66"
+		(property "Value" "74LVC2G66DC"
 			(at 59.69 139.6999 0)
 			(effects
 				(font
@@ -7145,7 +7146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 53.34 138.43 0)
 			(effects
 				(font
@@ -8246,7 +8247,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "74AHC2G66"
+		(property "Value" "74LVC2G66DC"
 			(at 160.782 54.102 90)
 			(effects
 				(font
@@ -8255,7 +8256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 156.21 55.88 0)
 			(effects
 				(font
@@ -8528,7 +8529,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "74AHC2G66"
+		(property "Value" "74LVC2G66DC"
 			(at 161.544 101.346 90)
 			(effects
 				(font
@@ -8537,7 +8538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -9391,8 +9392,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K2"
-			(at 203.708 45.72 90)
+		(property "Value" "750R"
+			(at 204.47 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
